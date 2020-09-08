@@ -1,0 +1,10 @@
+// Dataframes
+Dataframes are more trending , easier and efficient than rdd.
+
+// Dataframe vs DataSets
+- Datframes are (Dataset(RowObject)) whereas Datasets explictly wrap the struct as (Dataset[Person]). 
+So dataframes schema is inferred at runtime while datasets schema is at compile time.
+So datasets are faster to debug error and only used in compiled languages like scala, java not python
+
+// Spark Session
+Create a sparksession first instead of sparkcontext as we do in case of rdd . 
